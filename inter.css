@@ -4,6 +4,7 @@
 }
  
 .InfoPrincipal{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -32,6 +33,12 @@
 
 .PerInfo article{
     width: calc(100% - 200px);
+    height: calc(100vh - 300px);
+}
+
+.PerInfo ul{
+    width: 200px;
+    background-color: #7dc7ff;
     height: calc(100vh - 300px);
 }
 
